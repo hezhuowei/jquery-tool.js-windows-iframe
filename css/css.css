@@ -12,8 +12,8 @@ body{height:100%;font:12px/1.8 Microsoft YaHei,simsong;height:100%;overflow:hidd
 .ie-noscript-warning div{position:relative;left:-210px;top:-110px;width:384px;height:171px;background:url(ienoscript.gif) red no-repeat;opacity:0.7;filter:alpha(opacity=70);padding:10px 15px}
 
 /*任务栏*/
-#task-bar{position:absolute;right:0;bottom:0;left:0;width:100%;height:29px;overflow:hidden;border-top:1px solid #272C36;border-color:rgba(20, 20, 20, 0.8);background:#31323A;background:rgba(40, 40, 40, 0.9);opacity:0.9;filter:alpha(opacity=90)}
-.task-window{position:absolute;top:0;/*right:60px;*/left:150px;height:28px;overflow:hidden;float: left;}
+#task-bar{position:absolute;right:0;bottom:0;left:0;width:100%;height:29px;overflow:hidden;/*border-top:1px solid #272C36;border-color:rgba(20, 20, 20, 0.8);*/background:#31323A;background:rgba(40, 40, 40, 0.9);opacity:0.9;filter:alpha(opacity=90)}
+.task-window{position:absolute;top:0;/*right:60px;*/left:32px;height:28px;overflow:hidden;float: left;}
 .task-window li{position:relative;float:left;width:125px;height:26px;margin-right:1px;overflow:hidden;color:#F4F4F4;border:1px solid #272C36;border-color:rgba(30, 30, 30, 0.7);cursor:pointer}
 .task-window b{background:url(../images/desktop_spr_x.png) repeat-x;display:block;height:24px;font-weight:normal;border:1px solid;border-color:#6F758A #585C6D #414F5A}
 .task-window b:hover{border-color:#AEB2BA #9196A1 #616A77;background-position:0 -25px}
@@ -22,13 +22,13 @@ body{height:100%;font:12px/1.8 Microsoft YaHei,simsong;height:100%;overflow:hidd
 .task-window img{position:absolute;top:5px;left:5px;width:16px;height:16px;border-radius:3px}
 .task-window span{display:block;width:95px;height:24px;padding-left:25px;line-height:25px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
-.task-panel{position:absolute;top:0;/*right:0px;*/height:30px;overflow:hidden;float: left;}
-.task-panel li{position:relative;float:left;width:100px;height:26px;text-align: center;margin-right:1px;overflow:hidden;color:#F4F4F4;border:1px solid #272C36;border-color:rgba(30, 30, 30, 0.7);cursor:pointer}
-.task-panel b{background:url(../images/desktop_spr_x.png) repeat-x;display:block;height:24px;font-weight:normal;border:1px solid;border-color:#6F758A #585C6D #414F5A}
-.task-panel b:hover{border-color:#AEB2BA #9196A1 #616A77;background-position:0 -25px}
+.task-panel{position:absolute;top:0;/*right:0px;*/height:100%;overflow:hidden;float: left;}
+.task-panel li{position:relative;float:left;width:31px;height:100%;text-align: center;margin-right:1px;overflow:hidden;color:#F4F4F4;/*border:1px solid #272C36;border-color:rgba(30, 30, 30, 0.7);*/cursor:pointer}
+.task-panel b{/*background:url(../images/desktop_spr_x.png) repeat-x;*/display:block;height:100%;font-weight:normal;/*border:1px solid;border-color:#6F758A #585C6D #414F5A*/}
+.task-panel b:hover{background-color:#348CCC;}
 .task-panel b:active{border-color:#647382 #8A91A0 #9398A6;background-position:0 -50px}
 .task-panel b.focus{border-color:#B8BFCA #9EA8B7 #8A99A9;background-position:0 -75px}
-.task-panel img{position:absolute;top:5px;left:5px;width:16px;height:16px;border-radius:3px}
+.task-panel img{position:absolute;/*top:5px;*/left:1px;width:29px;height:29px;border-radius:3px}
 .task-panel span{display:block;width:95px;height:24px;line-height:25px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
 .desktop-view{background-position:0 0}
