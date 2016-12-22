@@ -337,7 +337,7 @@ Core.taskwindowsystemmenu = function(obj){
     _cache.TaskSystem = GetTaskSystem(obj);
     _cache.TaskSystem.css({
         left:'1px'
-    }).show();
+    }).toggle();
 };
 
 //点击窗口
